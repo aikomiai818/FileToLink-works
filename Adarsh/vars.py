@@ -37,4 +37,4 @@ class Var(object):
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL'))
     UPDATES_CHANNEL = int(getenv('UPDATES_CHANNEL'))
-    BANNED_CHANNELS = list(set(int(x) for x in int(getenv("BANNED_CHANNELS", "-1001965446242")).split())) 
+    BANNED_CHANNELS = int(getenv('BANNED_CHANNELS')) 
