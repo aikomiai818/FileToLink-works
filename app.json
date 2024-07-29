@@ -76,12 +76,7 @@
       },
       "HAS_SSL": {
           "description": "Default value is True",
-          "value": "True",
-          "required": false
-      },
-       "MY_PASS": {
-          "description": "Leave empty if dont need password else enter Your Password",
-          "value": "None",
+          "value": "False",
           "required": false
       },
       "BIND_ADRESS": {
